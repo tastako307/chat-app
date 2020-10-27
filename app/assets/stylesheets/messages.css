@@ -10,14 +10,44 @@
 .user_menu{
   height: 100px;
   background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.user_name a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.room_create a{
+  color: deepskyblue;
+  border: 1px lightblue solid;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.room_create {
+  font-size: 10px;
 }
 
 .room_select{
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0px 20px;
+  overflow: scroll;
 }
 
+.room_name{
+  padding: 20px 0px 40px;
+}
+
+.room_name a{
+  text-decoration: none;
+  color: white;
+}
 .chat{
   width: calc(100vw - 300px);
   background-color: #ffffff;
