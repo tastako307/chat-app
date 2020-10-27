@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  box-sizing: border-box;
+}/*このセレクターで設定したプロパティは全ての要素に適用される*/
