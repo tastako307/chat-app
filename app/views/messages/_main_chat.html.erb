@@ -39,7 +39,6 @@
     </div>
   </div> %>
 </div>
-<div class="input_form">
 <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
   <div class="chat_form">
     <%= f.text_field :content, class: 'text_form', placeholder: 'type a message' %>

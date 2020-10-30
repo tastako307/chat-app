@@ -96,9 +96,8 @@ li {
   float: left;
 }
 .chat-room-user__btn {
-  /* float: right; */
-  float: right;
   display: inline-block;
+  float: right;
   cursor: pointer;
 }
 .chat-room-user__btn--add {
